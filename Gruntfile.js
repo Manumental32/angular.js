@@ -230,6 +230,7 @@ module.exports = function(grunt) {
   });
 
 
+
   //alias tasks
   grunt.registerTask('test', 'Run unit, docs and e2e tests with Karma', ['package','test:unit', 'tests:docs', 'test:e2e']);
   grunt.registerTask('test:jqlite', 'Run the unit tests with Karma' , ['tests:jqlite']);
